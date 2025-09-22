@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nwslatl2028</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: DIN, sans-serif;
+    }
+    
+    
+
+    body {
+      background: url('ATLUTD_20220709_ATLvsATX_MM2_0476.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cta {
+      position: relative; /* lifts above the overlay */
+      /*background-color: rgba(0, 0, 0, 0.6);*/
+      padding: 20px 40px;
+      border-radius: 12px;
+      text-align: center;
+      z-index: 0; /* stays behind content */
+
+    }
+
+    .cta a {
+      color: #fff;
+      font-size: 24px;
+      text-decoration: none;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 12px 24px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+     .subheading {
+      color: #fff;
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+
+
+          /* Grey overlay */
+      body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(44, 44, 44, 0.517); /* adjust 0.4 for darker/lighter */
+        z-index: 0;
+
+      }
+
+    .cta a:hover {
+      background: rgba(92, 92, 92, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="cta">
+     <h2 class="subheading">The NWSL is coming to Atlanta in 2028</h2>
+    <a href="http://www.nwslatl2028.com/" target="_blank">Click here to stay connected</a>
+
+  </div>
+</body>
+</html>
